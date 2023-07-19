@@ -28,5 +28,5 @@ f.close()
 
 
 st.text(content)
-st.image("https://en.wikipedia.org/wiki/Google_Images")
+st.image("https://plus.unsplash.com/premium_photo-1688045802023-60a42a082776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80")
 st.video("https://youtu.be/yVV_t_Tewvs")
