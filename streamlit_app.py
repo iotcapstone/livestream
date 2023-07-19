@@ -24,7 +24,7 @@ content = f.read()
 f.close()
 
 
-p = Image.open("test_printer001.jpg")
+p = Image.open("test_Printer001.jpg")
 
 
 st.text(content)
