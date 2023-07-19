@@ -24,9 +24,9 @@ content = f.read()
 f.close()
 
 
-p = Image.open("test_Printer001.jpg")
+#p = Image.open("test_Printer001.jpg")
 
 
 st.text(content)
-st.image(p)
+st.image("https://en.wikipedia.org/wiki/Google_Images")
 st.video("https://youtu.be/yVV_t_Tewvs")
