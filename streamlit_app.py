@@ -1,7 +1,7 @@
 #importing streamlit library
 
 import streamlit as st
-
+from PIL import Image
 
 
 #displaying a local video file
@@ -24,10 +24,9 @@ content = f.read()
 f.close()
 
 
-p = open("test_printer001.jpg")
-pic = p.read()
+p = Image.open("test_printer001.jpg")
 
 
 st.text(content)
-st.image(pic)
+st.image(p)
 st.video("https://youtu.be/yVV_t_Tewvs")
