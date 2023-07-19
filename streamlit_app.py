@@ -6,11 +6,11 @@ import streamlit as st
 
 #displaying a local video file
 
-video_file = open('FILENAME', 'rb') #enter the filename with filepath
+#video_file = open('FILENAME', 'rb') #enter the filename with filepath
 
-video_bytes = video_file.read() #reading the file
+#video_bytes = video_file.read() #reading the file
 
-st.video(video_bytes) #displaying the video
+#st.video(video_bytes) #displaying the video
 
 
 
