@@ -17,7 +17,7 @@ from PIL import Image
 #displaying a video by simply passing a Youtube link
 
 f = open("test.txt", "a")
-f.write("Hello fuckers!\n")
+f.write("Hello!\n")
 f.close()
 f = open("test.txt", "r")
 content = f.read()
