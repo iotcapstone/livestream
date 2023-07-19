@@ -16,7 +16,7 @@ import streamlit as st
 
 #displaying a video by simply passing a Youtube link
 
-f = open("test.txt", "wa")
+f = open("test.txt", "a")
 f.write("Hello fuckers!\n")
 f.close()
 f = open("test.txt", "r")
