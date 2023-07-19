@@ -23,5 +23,5 @@ f = open("test.txt", "r")
 content = f.read()
 f.close()
 
-st.text(conent)
+st.text(content)
 st.video("https://youtu.be/yVV_t_Tewvs")
