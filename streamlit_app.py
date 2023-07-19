@@ -23,5 +23,11 @@ f = open("test.txt", "r")
 content = f.read()
 f.close()
 
+
+p = open("test_printer001.jpg")
+pic = p.read()
+
+
 st.text(content)
+st.image(pic)
 st.video("https://youtu.be/yVV_t_Tewvs")
